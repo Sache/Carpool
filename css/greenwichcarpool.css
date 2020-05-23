@@ -1,0 +1,417 @@
+html, body {
+  padding: 0;
+  margin:0;
+  height: 100%;
+}
+body{
+  font-family: monospace;
+  font-weight: normal;
+  color: #fff;
+}
+.Ctxt{
+    background:url('../images/bci.jpg');
+}
+a{
+  color: #F44336;
+}
+img.img{
+  float: left;
+  width: 100%;
+}
+.refresh{
+  margin-left: 20%;
+}
+a.verifytag{
+  /*    background-color: grey;*/
+  color: aqua;
+}
+label{
+  color: white;
+}
+h3.regis{
+  text-align: left;
+  color: white;
+  /*font-family: "Arial Narrow", Arial, sans-serif;*/
+  font-family: monospace;
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  /*line-height: 26.4px;*/
+  border-bottom: 3px solid white;
+  padding-top: 0;
+  margin-left: 25%;
+  margin-top: 10;
+  width: 50%;
+  margin-bottom: 10px;
+}
+p.info{
+  text-align: left;
+  color: white;
+  padding-left: 25%;
+  margin: auto;
+  margin-top:0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: monospace;
+  font-size: 20px;
+}
+/* 
+.Arriving--A{
+  margin-right: 30px;
+}
+
+.Departing--D{
+  padding:0;
+  margin-top:20px;
+  margin-right: 30px;
+  margin-left:300px;
+
+  } */
+
+  p.plan-p
+  {
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 10%;
+    padding: 0;
+    padding-top:20px;
+  }
+
+
+
+
+
+  div.check{
+    text-align:left;
+    margin: 8px 0;
+    background-color: black;
+    width: 45%;
+    margin-left: 24.9%;
+    padding-top:5px;
+    font-family: monospace;
+    padding-left: 0;
+
+  }
+
+
+  form{
+
+
+
+    text-align: center;
+    padding: 60px;
+    padding-top: 10px;
+
+  }
+
+
+  input[type=text],select,textarea{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width:50%;
+  }
+  .text{
+    text-align: left;
+    display: inline-block;
+    width:50%;
+  }
+  input[type=password]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width:50%;
+  }
+
+
+
+  input[type=email]{
+    width: 90%;
+    padding: 12px 20px;
+    width:50%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+
+    background-color:rgb(105,105,105) ;
+
+    color: white;
+    border: none;
+    cursor: pointer;
+    float:right;
+
+  }
+  input[type=submit].float-none {
+    float: none;
+  }
+
+  .reg:hover{
+    background-color: rgb(23, 23, 23);
+  }
+
+
+
+  div.div{
+    margin: 20px 0;
+  }
+
+  a.header{
+
+    text-decoration: none;
+
+  }
+
+  .journey--heading{
+   text-align: left;
+   color: white;
+   font-family: monospace;
+   font-size: 40px;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: 500;
+   /*line-height: 26.4px;*/
+   border-bottom: 3px solid white;
+   padding: 0;
+   margin-left: 10%;
+   margin-top: 10;
+   width: 50%;
+   margin-bottom: 10px;
+ }
+
+ a.h3--heading{
+   color: inherit;
+   text-decoration: none;
+ }
+
+
+ p.copy{
+  float: left;
+  color: white;
+}
+/*==================================== HOME PAGE ====================================*/
+ul{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+ul.optionlist{
+  margin: 1em;
+}
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+  font-family:monospace;
+}
+
+li a:hover,li.active a {
+  color:#F44336;
+}
+
+.nav--heading p:hover:not(.active) {
+  color: white;
+
+}
+
+/*==================================== HOME PAGE ====================================*/
+
+
+/* test - homepage */
+.nav {
+  background-color: #333;
+  overflow: hidden;
+  border-bottom: 1px solid red;
+  font-size: 15px
+}
+.nav--heading {
+  float: left;
+}
+.nav--listWrapper {
+  float:right;
+}
+.nav--headingText {
+  color: darkgrey;
+  font-size: 25px;
+  font-weight: 30px;
+  font-family:sans-serif;
+  padding-top: 20px;
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  padding: 6px;
+  font-family: monospace;
+}
+.nav--list li {
+  border-right:1px solid #bbb;
+  float: left;
+
+}
+.background {
+  height: 100%;
+  background-image: url('../images/carpoo3.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+p.errorinfo{
+  text-align: left;
+  color: white;
+  padding: 10;
+  margin: auto;
+  margin-top:0;
+  font-family: monospace;
+  font-size: 20px;
+  color: #F44336;
+  padding-left: 25%;
+}
+p.successinfo{
+  text-align: left;
+  color: white;
+  padding: 10;
+  margin: auto;
+  margin-top:0;
+  font-family: monospace;
+  font-size: 20px;
+  color: green;
+  padding-left: 25%;
+}
+#list_table
+{
+  width: 90%;
+  margin: 0 auto;
+}
+table 
+{
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+table.border-bottom td,table.border-bottom th{
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align:right;
+}
+.text-left{
+  text-align:left;
+}
+table:not(.nocolor) tr:nth-child(even) {
+  background-color: grey;
+}
+table:not(.nocolor) tr:nth-child(odd) {
+  color: #FFF;
+  background-color: #2F4F4F;
+}
+.add_route_link
+{
+  margin-right:0;
+}
+#image_list_table
+{
+  width: 90%;
+  margin: 0 auto;
+}
+#image_list_table th
+{
+  text-align:center;
+}
+#image_list_table td img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.delete_image
+{
+  color:#FFF;
+}
+.form_container
+{
+  width:50%;
+}
+.widget{
+  display: inline;
+  width: 50%;
+  float: left;
+}
+.widget-title{
+  width: 40%;
+  text-align: left;
+  float: left;
+}
+.form-control{
+  float: left;
+}
+.search-table{
+  margin: 0 auto;
+}
+.search_records{
+  margin: 40px 0; 
+}
+.pagiWrap{
+  margin: 20px;
+}
+#images_table
+{
+  margin-top: 50px;
+  border:0;
+  background: transparent;
+}
+#images_table tr{
+  background: transparent;
+}
+#images_table td,#images_table th{
+  border:0;
+}
+input[type=time]{
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width:37%;  
+}
+#filter_from_time
+{
+  width:50% !important;
+}
+#route_filter_form #from_time,#filter_from_time_index
+{
+  width:31%;
+}
+.welcome--title
+{
+  float: left;
+  color: white;
+}
